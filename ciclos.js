@@ -4,7 +4,7 @@ let s=0,y=1,fac=1,c=0;
         fac*=i;
         s+=y/fac;
     }
-console.log(s+1);
+console.log(s);
 
 
 console.log(exp(3));

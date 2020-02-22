@@ -1,4 +1,4 @@
-let s=1,y=2,fac=1,sum=0;
+let s=1,y=2,fac=1;
     for(let i=1;i<=3;i++){
         y=Math.pow(y,i);
         fac*=i;

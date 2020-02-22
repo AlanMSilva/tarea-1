@@ -1,10 +1,10 @@
 let s=1,y=2,fac=1,c=0,d=y;
     for(let i=1;i<=4;i++){
         c=Math.pow(y,i);
-        y=c
+        y=c;
         fac*=i;
         s+=y/fac;
-        y=d
+        y++;
     }
 console.log(s);
 
